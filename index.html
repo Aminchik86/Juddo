@@ -148,6 +148,7 @@
     <div class="selling" id="selling">
         <div class="container">
             <div class="selling-info">
+
                 <div class="selling-subtitle">
                     <h4>Top Selling</h4>
                 </div>
@@ -155,6 +156,7 @@
                 <div class="selling-title">
                     <h1>Top Destinations</h1>
                 </div>                
+
             </div>
 
             <div class="selling-images">
@@ -387,10 +389,16 @@
                         <input class="feedback_input" type="text" placeholder="Your email">                        
                     </div>
 
-                        <div class="feedback_subscribe" onclick="Refresh()" >
-                            <a class="subscribe" href="#">Subscribe</a>
-                        </div>
+                        <a href="#" class="subscribe" id="subscribe" onclick="Refresh()"><div class="feedback_subscribe">
+                            Subscribe</div>
+                        </a>
+                        
                 </div>
+
+                <div class="feedback_subtitle_subscribe" id="feedback_subtitle_subscribe">
+                    <p>Thanks! We will consider your application!</p>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -445,6 +453,8 @@
         </div>
     </footer>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js">
+
+    </script>
 </body>
 </html>
