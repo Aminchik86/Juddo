@@ -1,12 +1,20 @@
 let burger = document.getElementById('burger');
 let headerMenu = document.getElementById('header__menu');
+let subscribe = document.getElementById('subscribe');
 
-burger.addEventListener('click', MyFunction);
+burger.addEventListener('click', burgerMenu);
 
-function MyFunction() {
-    let element = document .getElementById('header__list_mob');
-    element.classList.toggle('header__list_active');
+function burgerMenu() {
+    let element = document.getElementById('header__list_mob');
+     element.classList.toggle('header__list_active');
 };
+
+subscribe.addEventListener('click', function() {
+    let feedbackSubscribe = document.getElementById('feedback_subtitle_subscribe');
+      feedbackSubscribe.classList.toggle('feedback_subtitle_subscribe_active');
+});
+
+
 
 window.addEventListener('scroll', function() {
 
