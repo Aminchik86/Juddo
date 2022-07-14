@@ -670,6 +670,15 @@ body {
     text-decoration: wavy;
 }
 
+.feedback_subtitle_subscribe {
+    display: none;
+    color: #84829A;
+    text-align: center;
+}
+
+.feedback_subtitle_subscribe_active {
+    display: block;
+}
 
 /* footer
 =================== */
@@ -781,7 +790,6 @@ body {
 
     .header__list {
         display: none;
-        
     }
 
     .burger {
@@ -791,8 +799,6 @@ body {
     #last_child_header {
         display: none;
     }
-
-
 
     .nickname {
         font-size: 12px;
