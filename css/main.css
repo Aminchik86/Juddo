@@ -701,6 +701,16 @@ body {
     font-size: 12px;
 }
 
+.footer_img_networks {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_instagram {
+    padding-top: 20px;
+    width: 20px;
+}
+
 .footer_networks a {
     margin: 0 5px;
 }
